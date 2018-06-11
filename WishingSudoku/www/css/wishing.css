@@ -1,0 +1,82 @@
+@font-face {
+	font-family: 'Lato Light';
+	src: url(../lib/framework7/font/lato-light.woff2) format('woff2');
+}
+
+.page-content {
+	background-color: lightsteelblue;
+	font-family: 'Lato Light';
+}
+
+.selected {
+	/* 	border: 1px solid darkgray; */
+	background-color: lightslategray !important;
+}
+
+.row {
+	margin: 10px;
+}
+
+.logo {
+	display: block;
+	max-width: 100%;
+	margin: 50px auto 50px auto;
+}
+
+.topBar {
+	margin: auto;
+	width: 340px;
+	height: 30px;
+	font-size: 20px;
+	text-align: center;
+	/* 	font-weight: bold; */
+	/* 	color: white; */
+}
+
+.numbers {
+	margin: auto;
+	width: 340px;
+	text-align: center;
+	font-size: 25px;
+	/* 	font-weight: bold; */
+	/* 	color: white; */
+}
+
+.number {
+	border-radius: 50%;
+}
+
+/*
+	Sudoku
+*/
+table {
+	margin: 1em auto;
+	border-spacing: 0;
+	border-top: 1px solid #333;
+	border-left: 1px solid #333;
+	border-bottom: 1px solid #333;
+	border-right: 1px solid #333;
+}
+
+td {
+	/* 	background-color: lightsteelblue; */
+	width: 25px;
+	height: 25px;
+	padding: 5px;
+	border: 1px solid #333;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+td.empty {
+	background-color: lightgray;
+}
+
+td:nth-child(3n) {
+	border-right: 1.5px solid #333;
+}
+
+tr:nth-child(3n) td {
+	border-bottom: 1.5px solid #333;
+}
